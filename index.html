@@ -4,165 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Stray kids</title>
-    <style>
-        *{
-            margin: 0;
-        }
-        .content{
-            width: 600px;
-            margin: 0 auto;
-         background-color: rgb(245 245 220) ;
-        }
-        .menu{
-            
-            color: white;
-            
-            
-        }
-        
-        .liMenu{
-            border-right:  1px solid white;
-            
-            display: flex;
-            float: left;
-       height: 30px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-left: 10px;
-           list-style-type: none;
-        }
-        aside{
-            display: block;
-            height: 40px;
-            background-color: rgb(114, 23, 128);
-            margin: 0;
-            
-        }
-        header{
-            height: 100px;
-       
-            position: relative;
-            background-color: white;
-
-        } 
-        h1{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-             color: rgb(114, 23, 128);
-       
-        }
-        
-        .picture{
-            width: 7cm;
-            height: 7cm;
-            border-radius:20px;
-            margin: 10px;
-            border:  4px solid rgb(114, 23, 128);
-        }
-        p{
-            width: 7cm;
-            padding: 10px;
-            text-align: justify;
-        }
-        footer{
-            height: 40px;
-            background-color: rgb(114, 23, 128);
-         clear: both;
-        }
-        .footer{
-            color: white;
-            text-align: center;
-            padding-top: 10px;
-            width: 100%;
-
-
-        }
-        a{
-            text-decoration: none;
-        }
-        .li{
-            list-style-type: none;
-        }
-        .about_skz{
-            width: 50%;
-          float: left;
-            padding: 0%;
-           
-        }
-        .why_admire{
-            width: 50%;
-            padding: 0%;
-float: left;
-        }
-        h2{
-            margin: 0%;
-            padding: 10px;
-            text-align: center;
-        }
-        h3{
-            margin: 0%;
-            padding: 10px;
-        }
-        .domination{
-            height: 40px;
-            width: 100%;
-            background-color: rgb(243 181 243);
-        }
-        button{
-            border-radius: 20px;
-            border: 2px solid white;
-            color: white;
-            background-color:rgb(114, 23, 128);
-            width: 80px;
-            float: right;
-            height: 30px;
-            margin-top: -32px;
-            margin-right: 10px;
-        }
-    
-    </style>
 </head>
 <body>
-    <div class="content">
-        <div class="domination">
-           <p>Stray kids world domination</p> 
-<ul>
-    <li class="li"><button>Yes</button></li>
-</ul>
-        </div>
-        <header><h1>My favourite group</h1></header>
-
-<aside><ul class="menu">
-    <li style="margin-left: -40px;" class="liMenu"> About Stray kids</li>
-    <li class="liMenu">Why I admire them</li>
-</ul></aside>
-<main>
-    <ul class="about_skz">
-        <li class="li"><h2>About Stray kids</h2></li>
-        <li class="li"><img  class="picture" src="https://lastfm.freetls.fastly.net/i/u/ar0/480ef1228937c2c4863108ff2aa88456.jpg" alt="Stray kids"></li>
-        <li class="li"><p>Stray Kids (Korean: 스트레이 키즈; RR: Seuteurei Kijeu; often abbreviated as SKZ) is a South Korean boy band formed by JYP Entertainment through the 2017 reality show of the same name. The group is composed of eight members: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. Originally a nine-piece group, member Woojin left due to undisclosed personal reasons in October 2019.</p></li>
-       <li class="li"><h3>Interesting facts:</h3></li>
-       <li class="li"><ol>
-        <li>Fact 1</li>
-        <li>Fact 2</li>
-        <li> Fact 3</li>
-
-       </ol></li>
-       <li class="li"><a href="https://en.wikipedia.org/wiki/Stray_Kids"><p style="color: rgb(114, 23, 128);">Learn more on Wikipedia</p></a></li>
-    </ul>
-    <ul class="why_admire">
-        <li class="li"><h2>Why I admire them</h2></li>
-        <li class="li"><img  class="picture" src="https://assets.teenvogue.com/photos/612f8bf4e8c260b3d41cc82c/1:1/w_2000,h_2000,c_limit/Stray%20Kids%20(1).jpg" alt="Stray kids"></li>
-        <li class="li"><p>I love this group because their music is cool and these boys are handsome. sdfdlsvblsgiuerlvb eruvbieu ber eonrgoegrigerjt oerngoeirntoer eroitneomdmpf</p></li>
-       
-    </ul>
-</main>
-<footer>
-    <p class="footer">2023. Coded by Mariia Postovik</p>
-</footer>
+    <div class="page">
+        <header class="header">
+            <div class="popup">
+                <p class="popup__paragraph">Stray kids world domination</p>
+                <button class="popup__button">Yes</button>
+            </div>
+            <h1 class="header__title">My favourite group</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list"> 
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">About Stray kids</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Why I admire them</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section class="section">
+                <h2 class="section__title">About Stray kids</h2>
+                <img class="section__image" src="https://lastfm.freetls.fastly.net/i/u/ar0/480ef1228937c2c4863108ff2aa88456.jpg" alt="The group of boys 'Stray kids' in the taxes and shirts are staying and looking at us">
+                <p class="section__paragraph">Stray Kids (Korean: 스트레이 키즈; RR: Seuteurei Kijeu; often abbreviated as SKZ) is a South Korean boy band formed by JYP Entertainment through the 2017 reality show of the same name. The group is composed of eight members: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. Originally a nine-piece group, member Woojin left due to undisclosed personal reasons in October 2019.</p>
+                <h3 class="section__subtitle">Interesting facts:</h3>
+                <ol class="section__list">
+                    <li class="section__list-item">Fact 1</li>
+                    <li class="section__list-item">Fact 2</li>
+                    <li class="section__list-item">Fact 3</li>
+                </ol>
+                <a class="section__link" href="https://en.wikipedia.org/wiki/Stray_Kids" target="_blank">Learn more on Wikipedia</a>
+            </section>
+            <section class="section">
+                <h2 class="section__title">Why I admire them</h2>
+                <img class="section__image" src="https://assets.teenvogue.com/photos/612f8bf4e8c260b3d41cc82c/1:1/w_2000,h_2000,c_limit/Stray%20Kids%20(1).jpg" alt="The group of boys 'Stray kids' in the red costumes are staying and looking at us">
+                <p class="section__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem eligendi voluptatem, placeat enim quasi error numquam sint ea corporis expedita molestias atque eum nulla officia necessitatibus voluptas ipsum rerum autem? Modi sapiente eius culpa, id aut repudiandae. Non iusto quibusdam alias nostrum cupiditate illo sunt atque delectus id nobis!</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__paragraph">2023. Coded by Mariia Postovik</p>
+        </footer>
     </div>
 </body>
 </html>
